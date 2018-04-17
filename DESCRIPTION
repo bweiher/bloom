@@ -1,0 +1,16 @@
+Package: bloom
+Type: Package
+Title: Make your data bloom by aggregating by select input combinations and returning the result
+Version: 0.1.0
+Authors@R: person("Ben", "Weiher", email = "bweiher@protonmail.com", role = c("aut","cre"))
+Maintainer: Ben Weiher <bweiher@protonmail.com>
+Description: Designed primarily for dashboards, where reactive inputs filter data and then a common 
+    summary function is applied. Bloom allows this filtering and aggregation to take place beforehand, 
+    allowing your UI to merely fetch pre-filtered, pre-aggregated data to greatly improve performance,
+    user experience and ultimately reduce the file size that must be read into R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+  data.table
+RoxygenNote: 6.0.1
